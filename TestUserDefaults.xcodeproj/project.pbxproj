@@ -22,6 +22,8 @@
 		EA868602246248160053298A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA868601246248160053298A /* ExtensionDelegate.swift */; };
 		EA868604246248170053298A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA868603246248170053298A /* Assets.xcassets */; };
 		EA868607246248170053298A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA868606246248170053298A /* Preview Assets.xcassets */; };
+		EA868619246250210053298A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA868618246250210053298A /* Settings.swift */; };
+		EA86861A246253060053298A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA868618246250210053298A /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,7 @@
 		EA868608246248170053298A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA86861624624AB40053298A /* TestUserDefaults.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestUserDefaults.entitlements; sourceTree = "<group>"; };
 		EA86861724624BA40053298A /* TestUserDefaults WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TestUserDefaults WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		EA868618246250210053298A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				EA86861624624AB40053298A /* TestUserDefaults.entitlements */,
-				EA8685D8246248130053298A /* AppDelegate.swift */,
-				EA8685DA246248130053298A /* SceneDelegate.swift */,
+				EA868618246250210053298A /* Settings.swift */,
 				EA8685DC246248130053298A /* ContentView.swift */,
+				EA8685DA246248130053298A /* SceneDelegate.swift */,
+				EA8685D8246248130053298A /* AppDelegate.swift */,
 				EA8685DE246248150053298A /* Assets.xcassets */,
 				EA8685E3246248150053298A /* LaunchScreen.storyboard */,
 				EA8685E6246248150053298A /* Info.plist */,
@@ -318,6 +322,7 @@
 			files = (
 				EA8685D9246248130053298A /* AppDelegate.swift in Sources */,
 				EA8685DB246248130053298A /* SceneDelegate.swift in Sources */,
+				EA868619246250210053298A /* Settings.swift in Sources */,
 				EA8685DD246248130053298A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +333,7 @@
 			files = (
 				EA868600246248160053298A /* HostingController.swift in Sources */,
 				EA8685FE246248160053298A /* ContentView.swift in Sources */,
+				EA86861A246253060053298A /* Settings.swift in Sources */,
 				EA868602246248160053298A /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

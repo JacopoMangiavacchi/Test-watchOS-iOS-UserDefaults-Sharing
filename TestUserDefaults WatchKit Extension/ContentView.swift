@@ -9,20 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var state = 0
+    @ObservedObject var settings = Settings()
     let defaults = UserDefaults.standard
     
     var body: some View {
         VStack {
-            Text("State: \(self.state)")
+            Text("State: \(self.settings.state)")
             HStack {
                 Button(action: {
-                    self.defaults.set(self.state, forKey: "state")
+                    self.defaults.set(self.settings.state, forKey: "state")
                 }) {
                     Text("Write")
                 }
                 Button(action: {
-                    self.state = self.defaults.integer(forKey: "state")
+                    self.settings.state = self.defaults.integer(forKey: "state")
                 }) {
                     Text("Read")
                 }
